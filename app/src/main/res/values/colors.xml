@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#DB4437</color>
+    <color name="menu">#4285F4</color>
+    <color name="primary_dark">#3367D6</color>
+    <color name="primary_light">#5E97F6</color>
+    <color name="primary_text">#434343</color>
+    <color name="accent">#FFC107</color>
+    <color name="secondary_text">#878787</color>
+    <color name="divider">#FFFFFF</color>
+    <color name="text">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_strip">#FFFFFF</color>
+</resources>
