@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#DB4437</color>
-    <color name="menu">#4285F4</color>
+    <color name="primary">#3878E7</color>
+    <color name="fab">#DB4437</color>
+    <color name="ripple">#5E97F6</color>
+    <color name="menu">#3878E7</color>
     <color name="primary_dark">#3367D6</color>
     <color name="primary_light">#5E97F6</color>
     <color name="primary_text">#434343</color>

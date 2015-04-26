@@ -1,4 +1,4 @@
-package com.danielkim.soundrecorder;
+package com.liuliu.materialsoundrecorder;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -13,7 +13,7 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.danielkim.soundrecorder.activities.MainActivity;
+import com.liuliu.materialsoundrecorder.activities.MainActivity;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,9 +22,6 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * Created by Daniel on 12/28/2014.
- */
 public class RecordingService extends Service {
 
     private static final String LOG_TAG = "RecordingService";

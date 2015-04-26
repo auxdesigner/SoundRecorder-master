@@ -1,4 +1,4 @@
-package com.danielkim.soundrecorder.fragments;
+package com.liuliu.materialsoundrecorder.fragments;
 
 import android.os.Bundle;
 import android.os.FileObserver;
@@ -11,12 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.danielkim.soundrecorder.R;
-import com.danielkim.soundrecorder.adapters.FileViewerAdapter;
+import com.liuliu.materialsoundrecorder.R;
+import com.liuliu.materialsoundrecorder.adapters.FileViewerAdapter;
 
-/**
- * Created by Daniel on 12/23/2014.
- */
+
 public class FileViewerFragment extends Fragment{
     private static final String ARG_POSITION = "position";
     private static final String LOG_TAG = "FileViewerFragment";

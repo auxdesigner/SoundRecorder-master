@@ -1,4 +1,4 @@
-package com.danielkim.soundrecorder;
+package com.liuliu.materialsoundrecorder;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,13 +7,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-import com.danielkim.soundrecorder.listeners.OnDatabaseChangedListener;
+import com.liuliu.materialsoundrecorder.listeners.OnDatabaseChangedListener;
 
 import java.util.Comparator;
 
-/**
- * Created by Daniel on 12/29/2014.
- */
+
 public class DBHelper extends SQLiteOpenHelper {
     private Context mContext;
 

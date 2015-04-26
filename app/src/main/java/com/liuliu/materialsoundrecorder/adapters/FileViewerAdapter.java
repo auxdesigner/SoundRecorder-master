@@ -1,4 +1,4 @@
-package com.danielkim.soundrecorder.adapters;
+package com.liuliu.materialsoundrecorder.adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -17,20 +17,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.text.format.DateUtils;
 
-import com.danielkim.soundrecorder.DBHelper;
-import com.danielkim.soundrecorder.R;
-import com.danielkim.soundrecorder.RecordingItem;
-import com.danielkim.soundrecorder.fragments.PlaybackFragment;
-import com.danielkim.soundrecorder.listeners.OnDatabaseChangedListener;
+import com.liuliu.materialsoundrecorder.DBHelper;
+import com.liuliu.materialsoundrecorder.R;
+import com.liuliu.materialsoundrecorder.RecordingItem;
+import com.liuliu.materialsoundrecorder.fragments.PlaybackFragment;
+import com.liuliu.materialsoundrecorder.listeners.OnDatabaseChangedListener;
 
 import java.io.File;
-import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 import java.util.ArrayList;
 
-/**
- * Created by Daniel on 12/29/2014.
- */
+
 public class FileViewerAdapter extends RecyclerView.Adapter<FileViewerAdapter.RecordingsViewHolder>
     implements OnDatabaseChangedListener{
 

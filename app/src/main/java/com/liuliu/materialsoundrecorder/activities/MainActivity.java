@@ -1,4 +1,4 @@
-package com.danielkim.soundrecorder.activities;
+package com.liuliu.materialsoundrecorder.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,14 +7,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.astuetz.PagerSlidingTabStrip;
-import com.danielkim.soundrecorder.R;
-import com.danielkim.soundrecorder.fragments.FileViewerFragment;
-//import com.danielkim.soundrecorder.fragments.LicensesFragment;
-import com.danielkim.soundrecorder.fragments.RecordFragment;
+import com.liuliu.materialsoundrecorder.R;
+import com.liuliu.materialsoundrecorder.fragments.FileViewerFragment;
+
+import com.liuliu.materialsoundrecorder.fragments.RecordFragment;
 
 
 public class MainActivity extends ActionBarActivity{

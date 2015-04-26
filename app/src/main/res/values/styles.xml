@@ -1,12 +1,17 @@
 <resources>
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light"> </style>
 
-    <style name="AppTheme" parent="AppTheme.Base">
+    <style name="AppTheme" parent="android:Theme.Material">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
 
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
+        <item name="android:colorEdgeEffect">@color/menu</item>
+    </style>
+
+    <style name="seekstyle">
+        <item name="android:color">@color/primary</item>
     </style>
 
 </resources>
